@@ -1,7 +1,7 @@
 {
       "name": "multisom",
       "version": "0.1.0",
-      "homepage": "https://Gucastilho.github.io/multisom",
+      "homepage": "https://Gucastilho.github.io/multisom.git",
       "private": true,
       "dependencies": {
             "@radix-ui/react-accordion": "^1.2.3",
