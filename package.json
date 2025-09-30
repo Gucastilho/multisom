@@ -1,6 +1,7 @@
 {
       "name": "multisom",
       "version": "0.1.0",
+      "homepage": "https://Gucastilho.github.io/multisom",
       "private": true,
       "dependencies": {
             "@radix-ui/react-accordion": "^1.2.3",
@@ -53,6 +54,8 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "vite build"
+            "build": "vite build",
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build"
       }
 }
